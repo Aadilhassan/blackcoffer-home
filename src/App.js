@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import NavTop from './components/Nav'
 
 function App() {
   return (
-    <div className="App">
-  hello
+    <div>
+<NavTop />
     </div>
   );
 }

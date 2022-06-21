@@ -1,0 +1,12 @@
+img{
+    height: 10;
+    width: auto;
+}
+#bold{
+    font-weight: 500;
+  
+}
+.d-flex{
+    width: 30vw;
+    justify-content: space-around;
+}
