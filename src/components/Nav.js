@@ -110,19 +110,21 @@ export default function NavTop() {
             LSAlead
           </Nav.Link>
 
-          <Button variant="btn btn-outline-success" className='me-3'>Get a Demo</Button>{' '}
-          <Button variant="btn btn-outline-info" className='me-3'>Contact Us</Button>{' '}
-       
-          <Form className="d-flex">
+          <Form>
           <Form.Control
-            type="text"
+            type="Search"
             placeholder="Search"
             id='search'
             className="me-3"
             aria-label="Search"
           />
-          <Button variant="outline-success">Search</Button>
+        
         </Form>
+
+<div id='bttt'></div>
+        <Button variant="btn btn-outline-success" className='me-3'>Get a Demo</Button>{' '}
+          <Button variant="btn btn-outline-info" className='me-3'>Contact Us</Button>{' '}
+       
         </Nav>
 
         

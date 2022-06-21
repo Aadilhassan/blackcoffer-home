@@ -16,4 +16,10 @@ img{
 }
 .nav{
     min-width: 100vw;
+    z-index: 1800;
+}
+#bttt{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
