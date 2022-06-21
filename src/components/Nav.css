@@ -10,3 +10,10 @@ img{
     width: 30vw;
     justify-content: space-around;
 }
+#search{
+    
+    width: 240px;
+}
+.nav{
+    min-width: 100vw;
+}

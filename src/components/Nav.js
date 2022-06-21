@@ -5,7 +5,7 @@ import { Navbar, Container, Nav, NavDropdown, Button, Form } from 'react-bootstr
 
 export default function NavTop() {
   return (
-    <div> <Navbar bg="light" expand="lg" >
+    <div> <Navbar bg="light" expand="lg" className='nav'  >
     <Container fluid >
       <Navbar.Brand href="#">
         <img
@@ -19,7 +19,7 @@ export default function NavTop() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav
-          className="me-auto "
+          className="me-auto grid "
           style={{ maxHeight: '100px' }}
          
         >
@@ -109,15 +109,16 @@ export default function NavTop() {
           <Nav.Link href="#" id='bold'>
             LSAlead
           </Nav.Link>
+
           <Button variant="btn btn-outline-success" className='me-3'>Get a Demo</Button>{' '}
           <Button variant="btn btn-outline-info" className='me-3'>Contact Us</Button>{' '}
        
           <Form className="d-flex">
           <Form.Control
-            type="search"
+            type="text"
             placeholder="Search"
-            width='auto'
-            className="me-3 "
+            id='search'
+            className="me-3"
             aria-label="Search"
           />
           <Button variant="outline-success">Search</Button>
