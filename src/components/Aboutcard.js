@@ -1,44 +1,51 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
-import { Card, Container, Nav, NavDropdown, Button, Form } from 'react-bootstrap'
+
+import { MDBCard, MDBCardImage,MDBBtn, MDBCardBody, MDBCardTitle, MDBCardText, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 export default function Aboutcard() {
   return (
-    <div id='card-container'  style={{marginTop: -40, justifyContent: 'space-around', display: 'flex', wrap:'nowrap'}} >
-        
-    <Card style={{ width: '23.33vw' ,}} className='car'   >
-      <Card.Img variant="top" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2016/10/camera-photo-lens-stock-images.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '22.33vw', }} id='card'>
-      <Card.Img variant="top" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2016/10/camera-photo-lens-stock-images.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    <Card style={{ width: '22.33vw', }} id="card">
-      <Card.Img variant="top" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2016/10/camera-photo-lens-stock-images.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    </div>
+
+    <MDBRow className='row-cols-1 row-cols-md-3 g-46 align-self-center' style={{maxWidth:"100vw", marginTop:-40, marginLeft:0}}>
+    <MDBCol>
+      <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-01.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10}}>
+
+        <MDBCardBody>
+          <MDBCardTitle>Our Services</MDBCardTitle>
+          <MDBCardText>
+          At Blackcoffer, we put our customers first. We create business value and achieve critical company objectives by providing innovative, best-in-class consulting and IT solutions.
+
+          </MDBCardText>
+          <MDBBtn variant="primary">Explore our Solutions</MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+    <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-02.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10}}>
+
+        <MDBCardBody>
+          <MDBCardTitle>Our Approach</MDBCardTitle>
+          <MDBCardText>
+          We take a pragmatic approach to creating new opportunities and solving complex problems. We are passionate about developing ideas, creating brilliant strategies for leading the digital revolution.
+
+          </MDBCardText>
+          <MDBBtn variant="primary">More about Blackcoffer</MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+    <MDBCol>
+    <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-03.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10}}>
+
+        <MDBCardBody>
+          <MDBCardTitle>Blackcoffer Solutions</MDBCardTitle>
+          <MDBCardText>
+          Partnering with you, we guide your business into the future. We create ground-breaking strategies that unlock new levels of growth. We take great pains to ensure your ambitions.
+
+          </MDBCardText>
+          <MDBBtn variant="primary">Explore our Solutions</MDBBtn>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
+
+  </MDBRow>
   )
 }

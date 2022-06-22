@@ -1,8 +1,13 @@
 #card-container{
     justify-content: space-around;
- 
+    z-index: 2500;
 
 }
-.car{
- background-color: black;
+.co{
+ backgroundColor: black;
+ height:100vh;
+}
+#tt{
+    width: 12px;
+    max-width: fit-content;
 }
