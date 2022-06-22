@@ -20,7 +20,7 @@ export default function NavTop() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav
           className="me-auto grid "
-          style={{ maxHeight: '100px' }}
+        
          
         >
           <Nav.Link href="#action1" id='bold'>Home</Nav.Link>
@@ -110,20 +110,19 @@ export default function NavTop() {
             LSAlead
           </Nav.Link>
 
-          <Form>
-          <Form.Control
+         
+          <input
             type="Search"
             placeholder="Search"
             id='search'
-            className="me-3"
-            aria-label="Search"
+            className='me-3'
           />
         
-        </Form>
+
 
 <div id='bttt'></div>
-        <Button variant="btn btn-outline-success" className='me-3'>Get a Demo</Button>{' '}
-          <Button variant="btn btn-outline-info" className='me-3'>Contact Us</Button>{' '}
+        <Button variant="btn btn-outline-success" id='btt' className='me-3'>Get a Demo</Button>{' '}
+          <Button variant="btn btn-outline-info" id="btt" className='me-3'>Contact Us</Button>{' '}
        
         </Nav>
 

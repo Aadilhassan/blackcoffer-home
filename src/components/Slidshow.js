@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container } from "react-bootstrap";
+import { Card, Container, Button } from "react-bootstrap";
 import "./slidshow.css"
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28"];
@@ -40,7 +40,7 @@ export default function Slideshow() {
           <div
             className="slide"
             // key={index}
-            style={{ backgroundImage:`url("https://blackcoffer.com/wp-content/uploads/2019/04/img-slider-01.jpg")`, backgroundRepeat: 'no-repeat', width:'100vw', height:"100vh", backgroundSize: 'cover' }}
+            style={{ backgroundImage:`url("https://blackcoffer.com/wp-content/uploads/2019/04/img-slider-01.jpg")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
           >
           <Container style={{marginTop:50}}>
             <h1 style={{color:'maroon', fontWeight: '900', fontSize: '6vw'}}>Find That</h1><p>
@@ -48,10 +48,12 @@ export default function Slideshow() {
             </p>
         
               <Container style={{width: "20rem" , maxWidth: '80vw', background:"transparent",  margin:0, padding: 0}}>
-            Let us help you grow your business. At Blackcoffer our fleet of <br></br>
+          <p>  Let us help you grow your business. At Blackcoffer our fleet of <br></br>
                 experts is available to help you with any issues, and tailor the perfect
-                solution for you!
-              
+                solution for you!</p>
+                <Button variant="btn btn-success" id='btt' className='me-3'>Our Industries</Button>
+          <Button variant="btn btn-info" id="btt" className='me-3'>Our Services</Button>
+       
                 </Container> 
             
           </Container>
@@ -59,7 +61,7 @@ export default function Slideshow() {
           <div
             className="slide"
             // key={index}
-            style={{ backgroundImage:`url("https://i.imgur.com/6FcmKTt.jpg")`, backgroundRepeat: 'no-repeat', width:'100vw', height:"100vh", backgroundSize: 'cover' }}
+            style={{ backgroundImage:`url("https://i.imgur.com/6FcmKTt.jpg")`, backgroundRepeat: 'no-repeat', width:'100vw', backgroundSize: 'cover' }}
           >
           <Container style={{marginTop:50}}>
             <h1 style={{color:'maroon', fontWeight: '900', fontSize: '6vw'}}>Your Success</h1><p>
@@ -67,8 +69,12 @@ export default function Slideshow() {
             </p>
         
               <Container style={{width: "80vw", background:"transparent", margin:0, padding: 0}}>
-              Our consulting services are tailored to address our clients' most pressing concerns and opportunities.<br></br>
+            <p>   Our consulting services are tailored to address our clients' most pressing concerns and opportunities.<br></br>
                Then we use our skills to solve those problems through data mining and research.
+               </p>
+               <Button variant="btn btn-success" id='btt' className='me-3'>BigData Analitics</Button>
+          <Button variant="btn btn-info" id="btt" className='me-3'>Application Devlopment</Button>
+       
                 </Container> 
             
           </Container>
@@ -76,17 +82,22 @@ export default function Slideshow() {
           <div
             className="slide"
             // key={index}
-            style={{ backgroundImage:`url("https://blackcoffer.com/wp-content/uploads/2019/04/img-slider-03.jpg")`, backgroundRepeat: 'no-repeat', width:'100vw', height:"100vh", backgroundSize: 'cover' }}
+            style={{ backgroundImage:`url("https://blackcoffer.com/wp-content/uploads/2019/04/img-slider-03.jpg")`, backgroundRepeat: 'no-repeat', width:'100vw', backgroundSize: 'cover' }}
           >
           <Container style={{marginTop:50}}>
             <h1 style={{color:'maroon', fontWeight: '900', fontSize: '6vw'}}>Devevering</h1><p>
           <h1 style={{color:'dark-blue', fontWeight: '900', fontSize: '6vw'}}>  the promise</h1>
             </p>
         
-              <Container style={{width: "80vw", background:"transparent", margin:0, padding: 0}}>
-              With Blackcoffer's app development services, you can give leads<br></br>
+              <Container style={{width: "100vw", background:"transparent", margin:0, padding: 0}}>
+         <p>           With Blackcoffer's app development services, you can give leads<br></br>
                the appropriate impression of your business without losing performance, 
-                speed, or results.
+                speed, or results.    </p>
+
+
+                <Button variant="btn btn-success" id='btt' className='me-3'>Consultancy</Button>
+          <Button variant="btn btn-info" id="btt" className='me-3'>Research Academia</Button>
+       
                 </Container> 
             
           </Container>
