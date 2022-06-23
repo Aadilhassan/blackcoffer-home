@@ -5,7 +5,7 @@ import { Navbar, Container, Nav, NavDropdown, Button, Form } from 'react-bootstr
 import { MDBCol } from 'mdb-react-ui-kit';
 export default function NavTop() {
   return (
-    <div> <Navbar bg="light" expand="lg" className='nav'  >
+    <div> <Navbar bg="light" expand="lg"  >
     <Container fluid >
       <Navbar.Brand href="#">
         <img

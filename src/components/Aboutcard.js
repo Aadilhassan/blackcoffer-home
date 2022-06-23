@@ -15,7 +15,7 @@ export default function Aboutcard() {
           At Blackcoffer, we put our customers first. We create business value and achieve critical company objectives by providing innovative, best-in-class consulting and IT solutions.
 
           </MDBCardText>
-          <MDBBtn variant="primary">Explore our Solutions</MDBBtn>
+          <MDBBtn outline color="primary">Blackcoffer Services</MDBBtn>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
@@ -28,7 +28,7 @@ export default function Aboutcard() {
           We take a pragmatic approach to creating new opportunities and solving complex problems. We are passionate about developing ideas, creating brilliant strategies for leading the digital revolution.
 
           </MDBCardText>
-          <MDBBtn variant="primary">More about Blackcoffer</MDBBtn>
+          <MDBBtn outline color="primary">More about Blackcoffer</MDBBtn>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
@@ -41,7 +41,7 @@ export default function Aboutcard() {
           Partnering with you, we guide your business into the future. We create ground-breaking strategies that unlock new levels of growth. We take great pains to ensure your ambitions.
 
           </MDBCardText>
-          <MDBBtn variant="primary">Explore our Solutions</MDBBtn>
+          <MDBBtn outline color="primary">Explore our Solutions</MDBBtn>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>

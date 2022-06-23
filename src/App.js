@@ -3,6 +3,7 @@ import Slidshow from './components/Slidshow';
 import Aboutcard from './components/Aboutcard';
 import Experience from './components/Experience';
 import Testimonials from './components/Testimonials';
+import Partners from './components/Partners';
 import './components/slidshow.css'
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 <Aboutcard />
 <Experience />
 <Testimonials />
+<Partners />
     </div>
   );
 }
