@@ -50,7 +50,7 @@ export default function Testimonials() {
         <MDBCardBody style={{textAlign: 'center'}}>
           <MDBCardTitle>Blackcoffer Solutions</MDBCardTitle>
           <MDBCardText>
-          Partnering with you, we guide your business into the future. We create ground-breaking strategies that unlock new levels of growth. We take great pains to ensure your ambitions.
+          "Blackcoffer’s team did a great job solving issues we were having in an iterative fashion and adapted well to changing technical approaches."
 
           </MDBCardText>
           <p/>

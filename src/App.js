@@ -4,6 +4,7 @@ import Aboutcard from './components/Aboutcard';
 import Experience from './components/Experience';
 import Testimonials from './components/Testimonials';
 import Partners from './components/Partners';
+import GetCall from './components/GetCall';
 import './components/slidshow.css'
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 <Experience />
 <Testimonials />
 <Partners />
+<GetCall />
     </div>
   );
 }

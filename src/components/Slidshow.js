@@ -47,10 +47,10 @@ export default function Slideshow() {
           <h1 style={{color:'dark-blue', fontWeight: '900', fontSize: '6vw'}}>  Missing Piece</h1>
             </p>
         
-              <Container style={{width: "100vw" , maxWidth: '100vw', background:"transparent",  margin:0, padding: 0}}>
-          <p>  Let us help you grow your business. At Blackcoffer our fleet of <br></br>
-                experts is available to help you with any issues, and tailor the perfect
-                solution for you!</p>
+              <Container style={{width: "100vw" , maxWidth: '100vw', background:"transparent",  margin:0, padding: 10}}>
+        <div>  <p>  Let us help you grow your business.<br /> At Blackcoffer our fleet of 
+                experts is available to help you<br /> with any issues, and tailor the perfect
+                solution <br /> for you!</p></div>
                 <Button variant="btn btn-success" id='btt' className='me-3'>Our Industries</Button>
           <Button variant="btn btn-info" id="btt" className='me-3'>Our Services</Button>
        
@@ -68,9 +68,9 @@ export default function Slideshow() {
           <h1 style={{color:'dark-blue', fontWeight: '900', fontSize: '6vw'}}>  Our business</h1>
             </p>
         
-              <Container style={{width: "80vw", background:"transparent", margin:0, padding: 0}}>
-            <p>   Our consulting services are tailored to address our clients' most pressing concerns and opportunities.<br></br>
-               Then we use our skills to solve those problems through data mining and research.
+              <Container style={{width: "80vw", background:"transparent", margin:0, padding: 10}}>
+         <div></div>   <p>   Our consulting services are tailored to address our<br /> clients' most pressing concerns and opportunities.
+               Then we <br /> use our skills to solve those problems through<br /> data mining and research.
                </p>
                <Button variant="btn btn-success" id='btt' className='me-3'>BigData Analitics</Button>
           <Button variant="btn btn-info" id="btt" className='me-3'>Application Devlopment</Button>
@@ -85,13 +85,13 @@ export default function Slideshow() {
             style={{ backgroundImage:`url("https://blackcoffer.com/wp-content/uploads/2019/04/img-slider-03.jpg")`, backgroundRepeat: 'no-repeat', width:'100vw', backgroundSize: 'cover' }}
           >
           <Container style={{marginTop:50}}>
-            <h1 style={{color:'maroon', fontWeight: '900', fontSize: '6vw'}}>Devevering</h1><p>
+            <h1 style={{color:'maroon', fontWeight: '900', fontSize: '6vw'}}>Delevering</h1><p>
           <h1 style={{color:'dark-blue', fontWeight: '900', fontSize: '6vw'}}>  the promise</h1>
             </p>
         
-              <Container style={{width: "100vw", background:"transparent", margin:0, padding: 0}}>
-         <p>           With Blackcoffer's app development services, you can give leads<br></br>
-               the appropriate impression of your business without losing performance, 
+              <Container style={{width: "100vw", background:"transparent", margin:0, padding: 10}}>
+         <p>           With Blackcoffer's app development services,<br /> you can give leads
+               the appropriate impression of your<br /> business without losing performance, 
                 speed, or results.    </p>
 
 
