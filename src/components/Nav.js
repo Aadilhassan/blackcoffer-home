@@ -2,7 +2,7 @@ import React from 'react'
 import './Nav.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Navbar, Container, Nav, NavDropdown, Button, Form } from 'react-bootstrap'
-
+import { MDBCol } from 'mdb-react-ui-kit';
 export default function NavTop() {
   return (
     <div> <Navbar bg="light" expand="lg" className='nav'  >
@@ -110,20 +110,15 @@ export default function NavTop() {
             LSAlead
           </Nav.Link>
 
-         
-          <input
-            type="Search"
-            placeholder="Search"
-            id='search'
-            className='me-3'
-          />
-        
+          <MDBCol md="4">
+      <input className="form-control" type="text" placeholder="Search" aria-label="Search" />
+    </MDBCol>
 
 
-<div id='bttt'></div>
+<div id='bttt'>
         <Button variant="btn btn-outline-success" id='btt' className='me-3'>Get a Demo</Button>{' '}
           <Button variant="btn btn-outline-info" id="btt" className='me-3'>Contact Us</Button>{' '}
-       
+          </div>
         </Nav>
 
         

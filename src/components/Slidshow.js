@@ -51,7 +51,7 @@ export default function Slideshow() {
           <p>  Let us help you grow your business. At Blackcoffer our fleet of <br></br>
                 experts is available to help you with any issues, and tailor the perfect
                 solution for you!</p>
-                <Button variant="btn btn-success" id='btt' className='me-6'>Our Industries</Button>
+                <Button variant="btn btn-success" id='btt' className='me-3'>Our Industries</Button>
           <Button variant="btn btn-info" id="btt" className='me-3'>Our Services</Button>
        
                 </Container> 
