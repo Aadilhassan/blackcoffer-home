@@ -34,6 +34,10 @@ body, html{
     .slideshow{
         height: 50vh;
     }
+    #btt{
+        width: 800vw;
+     
+    }
   }
 
 

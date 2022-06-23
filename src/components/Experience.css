@@ -1,0 +1,53 @@
+#wrapper{
+   display: flex;
+   align-content: space-around;
+   max-width: 100vw;
+   margin-top: 15px;
+}
+#col{
+    max-width: 50vw;
+}
+
+#wr{
+    display:flexbox;
+    align-content: space-between;
+    width: 100%;
+}
+h1{
+    padding: 10px;
+}
+
+#di{
+    max-width: 23vw;
+    display: inline-flex;
+    padding: 10px;
+}
+#svgs{
+    display: inline-flex;
+    justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 900px) {
+    #wrapper{
+        display: block;
+        max-width: 100vw;
+        width: 100vw;
+     }
+     #col{
+         max-width: 100vw;
+     }
+     
+     #wr{
+         display:block;
+   
+         width: 100%;
+     }
+     
+     #di{
+         width: 100vw;
+         max-width: 100vw;
+     display: block;
+         padding: 10px;
+     }
+  }

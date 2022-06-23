@@ -5,9 +5,9 @@ import { MDBCard, MDBCardImage,MDBBtn, MDBCardBody, MDBCardTitle, MDBCardText, M
 export default function Aboutcard() {
   return (
 
-    <MDBRow className='row-cols-1 row-cols-md-3 g-46 align-self-center' style={{maxWidth:"100vw", marginTop:-40, marginLeft:0}}>
+    <MDBRow className='row-cols-1 row-cols-md-3 g-46 align-self-center' style={{maxWidth:"100vw", marginTop:-40, marginLeft:0 }}>
     <MDBCol>
-      <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-01.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10}}>
+      <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-01.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10, minHeight:'250px'}}>
 
         <MDBCardBody>
           <MDBCardTitle>Our Services</MDBCardTitle>
@@ -20,7 +20,7 @@ export default function Aboutcard() {
       </MDBCard>
     </MDBCol>
     <MDBCol>
-    <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-02.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10}}>
+    <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-02.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10,  minHeight:'250px'}}>
 
         <MDBCardBody>
           <MDBCardTitle>Our Approach</MDBCardTitle>
@@ -33,7 +33,7 @@ export default function Aboutcard() {
       </MDBCard>
     </MDBCol>
     <MDBCol>
-    <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-03.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10}}>
+    <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-03.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10,  minHeight:'250px'}}>
 
         <MDBCardBody>
           <MDBCardTitle>Blackcoffer Solutions</MDBCardTitle>

@@ -47,11 +47,11 @@ export default function Slideshow() {
           <h1 style={{color:'dark-blue', fontWeight: '900', fontSize: '6vw'}}>  Missing Piece</h1>
             </p>
         
-              <Container style={{width: "20rem" , maxWidth: '80vw', background:"transparent",  margin:0, padding: 0}}>
+              <Container style={{width: "100vw" , maxWidth: '100vw', background:"transparent",  margin:0, padding: 0}}>
           <p>  Let us help you grow your business. At Blackcoffer our fleet of <br></br>
                 experts is available to help you with any issues, and tailor the perfect
                 solution for you!</p>
-                <Button variant="btn btn-success" id='btt' className='me-3'>Our Industries</Button>
+                <Button variant="btn btn-success" id='btt' className='me-6'>Our Industries</Button>
           <Button variant="btn btn-info" id="btt" className='me-3'>Our Services</Button>
        
                 </Container> 
