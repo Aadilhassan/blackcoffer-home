@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    /* background-color: blueviolet;
+    clip-path: polygon(0 24%, 100% 0%, 100% 77%, 0% 100%); */
 
 }
 #img{

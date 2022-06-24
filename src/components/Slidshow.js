@@ -69,7 +69,7 @@ export default function Slideshow() {
             </p>
         
               <Container style={{width: "80vw", background:"transparent", margin:0, padding: 10}}>
-         <div></div>   <p>   Our consulting services are tailored to address our<br /> clients' most pressing concerns and opportunities.
+         <p>   Our consulting services are tailored to address our<br /> clients' most pressing concerns and opportunities.
                Then we <br /> use our skills to solve those problems through<br /> data mining and research.
                </p>
                <Button variant="btn btn-success" id='btt' className='me-3'>BigData Analitics</Button>
@@ -89,7 +89,7 @@ export default function Slideshow() {
           <h1 style={{color:'dark-blue', fontWeight: '900', fontSize: '6vw'}}>  the promise</h1>
             </p>
         
-              <Container style={{width: "100vw", background:"transparent", margin:0, padding: 10}}>
+              <Container style={{width: "80vw", background:"transparent", margin:0, padding: 10}}>
          <p>           With Blackcoffer's app development services,<br /> you can give leads
                the appropriate impression of your<br /> business without losing performance, 
                 speed, or results.    </p>

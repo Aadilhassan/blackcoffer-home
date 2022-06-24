@@ -13,7 +13,7 @@ export default function Partners() {
 
   
  
-    <div id='wraper' >
+    <div id='wraper'  >
 
 
     <img src='https://blackcoffer.com/wp-content/uploads/2022/01/9-5.png' id='img' />
