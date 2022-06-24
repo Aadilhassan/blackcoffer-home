@@ -23,7 +23,7 @@ export default function GetCall() {
 <Button variant="outline-success" style={{marginTop:30}}>Request a Call Back</Button>
 
 
-<MDBRow className='row-cols-1 row-cols-md-3 g-46 align-self-center' style={{maxWidth:"100vw", marginTop:90, marginLeft:0 }}>
+<MDBRow className='row-cols-1 row-cols-md-3 g-46 align-self-center' style={{maxWidth:"90vw", marginTop:90, marginLeft:10 }}>
     <MDBCol>
       <MDBCard style={{ marginTop: 70, minHeight:'340px', alignContent:'center'}}>
        <MDBCardBody style={{textAlign: 'center'}}>
