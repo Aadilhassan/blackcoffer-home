@@ -8,6 +8,7 @@ import GetCall from './components/GetCall';
 import Team from './components/Team';
 import UseCases from './components/UseCases';
 import './components/slidshow.css'
+import Footer from './components/Footer'
 function App() {
   return (
     <div id="wra">
@@ -20,6 +21,7 @@ function App() {
 <GetCall />
 <Team />
 <UseCases />
+<Footer />
     </div>
   );
 }
