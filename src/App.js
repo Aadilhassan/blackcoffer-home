@@ -6,6 +6,7 @@ import Testimonials from './components/Testimonials';
 import Partners from './components/Partners';
 import GetCall from './components/GetCall';
 import Team from './components/Team';
+import UseCases from './components/UseCases';
 import './components/slidshow.css'
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
 <Partners />
 <GetCall />
 <Team />
+<UseCases />
     </div>
   );
 }
