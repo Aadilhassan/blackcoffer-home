@@ -111,14 +111,14 @@ export default function NavTop() {
           </Nav.Link>
 
           <MDBCol md="4">
-      <input className="form-control" type="text" placeholder="Search" aria-label="Search" />
+      <input className="form-control" type="text" id='searchhh' placeholder="Search" aria-label="Search" />
     </MDBCol>
 
-
-<div id='bttt'>
+    <div id='bttt'>
         <Button variant="btn btn-outline-success" id='btt' className='me-3'>Get a Demo</Button>{' '}
           <Button variant="btn btn-outline-info" id="btt" className='me-3'>Contact Us</Button>{' '}
           </div>
+
         </Nav>
 
         

@@ -5,7 +5,8 @@ import {
   MDBCol,
   MDBRow,
 } from 'mdb-react-ui-kit';
-import { BsFacebook, BsTwitter, BsYoutube, BsLinkedin } from 'react-icons/bs';
+import { BsFacebook, BsTwitter, BsYoutube, BsLinkedin,BsTelephoneFill } from 'react-icons/bs';
+import {ImLocation2,ImMail2} from 'react-icons/im'
 
 export default function Footer() {
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
       <MDBContainer className='p-4'>
         <MDBRow>
           <MDBCol lg='4' md='12' className='mb-0 mb-md-0' style={{textAlign: 'left'}}>
-            <h5 className='text-uppercase'>Headquarters
+            <h5 className='text-uppercase' style={{color:'maroon', fontWeight:5500}}>Headquarters
 </h5>
 
             <p>
@@ -21,29 +22,29 @@ export default function Footer() {
             </p>
             
 <p>
-☏ India, Phone: (+91) 74284 77468</p>
+<BsTelephoneFill /> India, Phone: (+91) 74284 77468</p>
 <p>
-📍 B-141/1, Street 18, Shyam Vihar Phase 1, Najafgarh, Delhi - 110043, India</p>
-<p>✉ hello@blackcoffer.com</p>
+<ImLocation2 /> B-141/1, Street 18, Shyam Vihar Phase 1, Najafgarh, Delhi - 110043, India</p>
+<p><ImMail2 /> hello@blackcoffer.com</p>
           </MDBCol>
 
           <MDBCol lg='3' md='6' className='mb-4 mb-md-0'  style={{textAlign: 'left', }}>
-            <h5 className='text-uppercase'>Europe</h5>
+            <h5 className='text-uppercase' style={{color:'maroon', fontWeight:5500}}>Europe</h5>
 
             <ul className='list-unstyled mb-0'>
               <li>
               
-38, St. James Street, Qawra, St. Paul's Bay, Malta, Europe
+<ImLocation2 />38, St. James Street, Qawra, St. Paul's Bay, Malta, Europe
 
               </li>
             </ul>
-            <h5 className='text-uppercase' style={{marginTop:20}}>USA</h5>
+            <h5 className='text-uppercase' style={{marginTop:20,color:'maroon', fontWeight:5500}}>USA</h5>
 
 <ul className='list-unstyled mb-0'>
   <li>
   
 
-  1512 Anise Drive, Austin, TX 78741, USA
+  <ImLocation2 />1512 Anise Drive, Austin, TX 78741, USA
 
 
   </li>
@@ -51,7 +52,7 @@ export default function Footer() {
           </MDBCol>
 
           <MDBCol lg='3' md='6' className='mb-4 mb-md-0' style={{textAlign:'left'}}>
-            <h5 className='text-uppercase mb-0'>About us</h5>
+            <h5 className='text-uppercase mb-0' style={{color:'maroon', fontWeight:5500}}>About us</h5>
 
             <ul className='list-unstyled'>
               <li>
@@ -101,7 +102,7 @@ export default function Footer() {
               </li>
             </ul>
           </MDBCol>
-          <MDBCol style={{textAlign:'left'}}><h5>Blackcoffer Social links</h5>
+          <MDBCol style={{textAlign:'left'}}><h5 style={{color:'maroon', fontWeight:5500}}>Blackcoffer Social links</h5>
           Taking seamless key performance indicators offline to maximise the long tail.
           <div style={{marginTop:50}}>        <BsFacebook  style={ {fontSize:40, padding:2}}/>
           <BsTwitter  style={ {fontSize:40, padding:2}}/><BsYoutube  style={ {fontSize:40, padding:2}}/><BsLinkedin  style={ {fontSize:40, padding:2}}/>

@@ -13,7 +13,7 @@ export default function Experience() {
             
             
             <h1>12 Years of<br></br>
-                Experience
+              <span style={{color:'maroon'}}>Experience</span>  
 </h1>
 <div id='wr'>
 <div id='di'>At Blackcoffer, we approach every case with an open mind. Our clients come first, and we invest the time and resources necessary to provide outstanding care. From our network of experts, our global team provides clients with powerful insights in varied fields from around the world. 

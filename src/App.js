@@ -9,6 +9,7 @@ import Team from './components/Team';
 import UseCases from './components/UseCases';
 import './components/slidshow.css'
 import Footer from './components/Footer'
+import './App.css'
 function App() {
   return (
     <div id="wra">

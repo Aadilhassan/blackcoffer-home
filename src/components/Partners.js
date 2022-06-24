@@ -8,7 +8,7 @@ export default function Partners() {
   
   return (
     <>
-    <h1 style={{textAlign:'center'}}>Business Partners
+    <h1 style={{textAlign:'center'}}>Business <span style={{color: 'maroon'}}>Partners</span>
 </h1>
 
   
@@ -38,7 +38,7 @@ export default function Partners() {
 
 
     </div>
-    <h1 style={{textAlign:'center'}}>Academia Partners
+    <h1 style={{textAlign:'center'}}>Academia <span style={{color: 'maroon'}}>Partners</span>
 </h1>
  <div id='wraper' >
  <img src='https://blackcoffer.com/wp-content/uploads/2022/01/3-4.png' id='img' />

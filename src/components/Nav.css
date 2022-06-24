@@ -10,10 +10,10 @@ img{
     width: 30vw;
     justify-content: space-around;
 }
-#search{
+/* #search{
     
     width: 240px;
-}
+} */
 .nav{
     
     z-index: 1800;
@@ -31,9 +31,10 @@ min-width: 200px;
 }
 @media only screen and (max-width: 600px) {
 
-    #search{
+    #searchhh{
         height: 100%;
-        min-width: 100%;
+        width: 90vw;
+       
     }
     #btt{
         
@@ -45,7 +46,7 @@ min-width: 200px;
             margin-top: 50px;
            display: inline-block;
            justify-content: flex-start;
-           width: 50vw;
+           width: 100vw;
            max-height: 100%;
            min-width: 200px;
            }

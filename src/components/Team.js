@@ -7,7 +7,7 @@ export default function Team() {
     <div>
   
 
-  <h1>Our Team</h1>
+  <h1>Our<span style={{color:'maroon'}}> Team</span></h1>
     <MDBRow className='row-cols-1 row-cols-md-3 g-46 align-self-center' style={{maxWidth:"100vw", marginTop:90, marginLeft:0 }}>
     <MDBCol>
       <MDBCard style={{ marginTop: 70, minHeight:'400px', alignContent:'center'}}>

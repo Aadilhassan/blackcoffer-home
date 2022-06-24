@@ -14,8 +14,8 @@ export default function GetCall() {
      <div id='con'>
           
           
-          <h1>Get your Business<br></br>
-          Right up There
+          <h1>Get your Business<br />
+         <span style={{color:'maroon'}}> Right up There</span>
 </h1>
 <div id='wr'>
 <div style={{marginLeft:10}}>When you need intelligent answers to your toughest questions, we’re here to help. We’re just a call or email away! Don’t hang back from getting in touch with us. We’ll be glad to assist you.

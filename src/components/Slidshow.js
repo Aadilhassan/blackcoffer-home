@@ -40,14 +40,14 @@ export default function Slideshow() {
           <div
             className="slide"
             // key={index}
-            style={{ backgroundImage:`url("https://blackcoffer.com/wp-content/uploads/2019/04/img-slider-01.jpg")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
+            style={{ backgroundImage:`url("https://blackcoffer.com/wp-content/uploads/2019/04/img-slider-01.jpg")`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition:'centre-right' }}
           >
           <Container style={{marginTop:50}}>
             <h1 style={{color:'maroon', fontWeight: '900', fontSize: '6vw'}}>Find That</h1><p>
           <h1 style={{color:'dark-blue', fontWeight: '900', fontSize: '6vw'}}>  Missing Piece</h1>
             </p>
         
-              <Container style={{width: "100vw" , maxWidth: '100vw', background:"transparent",  margin:0, padding: 10}}>
+              <Container style={{width: "80vw" , maxWidth: '100vw', background:"transparent",  margin:0, padding: 10}}>
         <div>  <p>  Let us help you grow your business.<br /> At Blackcoffer our fleet of 
                 experts is available to help you<br /> with any issues, and tailor the perfect
                 solution <br /> for you!</p></div>

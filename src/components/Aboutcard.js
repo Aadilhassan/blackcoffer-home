@@ -10,7 +10,7 @@ export default function Aboutcard() {
       <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-01.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10, minHeight:'250px'}}>
 
         <MDBCardBody>
-          <MDBCardTitle>Our Services</MDBCardTitle>
+          <MDBCardTitle style={{color:'black', fontWeight:5500, fontSize:40}} >Our Services</MDBCardTitle>
           <MDBCardText>
           At Blackcoffer, we put our customers first. We create business value and achieve critical company objectives by providing innovative, best-in-class consulting and IT solutions.
 
@@ -23,7 +23,7 @@ export default function Aboutcard() {
     <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-02.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10,  minHeight:'250px'}}>
 
         <MDBCardBody>
-          <MDBCardTitle>Our Approach</MDBCardTitle>
+          <MDBCardTitle style={{color:'black', fontWeight:5500, fontSize:40}}>Our Approach</MDBCardTitle>
           <MDBCardText>
           We take a pragmatic approach to creating new opportunities and solving complex problems. We are passionate about developing ideas, creating brilliant strategies for leading the digital revolution.
 
@@ -36,7 +36,7 @@ export default function Aboutcard() {
     <MDBCard style={{backgroundImage: `url("https://blackcoffer.com/wp-content/uploads/2022/02/bgn-boxes-03.jpg")`, backgroundPosition: 'center top', backgroundSize: 'cover', marginTop: 10,  minHeight:'250px'}}>
 
         <MDBCardBody>
-          <MDBCardTitle>Blackcoffer Solutions</MDBCardTitle>
+          <MDBCardTitle style={{color:'black', fontWeight:5500, fontSize:40}}>Blackcoffer Solutions</MDBCardTitle>
           <MDBCardText>
           Partnering with you, we guide your business into the future. We create ground-breaking strategies that unlock new levels of growth. We take great pains to ensure your ambitions.
 

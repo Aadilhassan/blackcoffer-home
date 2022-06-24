@@ -7,15 +7,15 @@ export default function Testimonials() {
   
   <div>
   
-  <h1>Trusted by some</h1>
-  <h1>Biggest Names</h1>
+  <h1 style={{marginBottom: -80}}>Trusted by some<br />
+    <span style={{color:'maroon'}}>Biggest Names</span></h1>
     <MDBRow className='row-cols-1 row-cols-md-3 g-46 align-self-center' style={{maxWidth:"100vw", marginTop:90, marginLeft:0 }}>
     <MDBCol>
       <MDBCard style={{ marginTop: 70, minHeight:'400px', alignContent:'center'}}>
       <Image src='https://blackcoffer.com/wp-content/uploads/2022/01/1-5.jpg' width={'100%'} style={{width:"50%", marginTop: -50}}  className='mx-auto d-block' roundedCircle={true}/>
         <MDBCardBody style={{textAlign: 'center'}}>
           <MDBCardTitle>Excellent Management!</MDBCardTitle>
-          <MDBCardText>
+          <MDBCardText style={{height:100}}>
           "Blackcoffer has provided excellent big data management expertise as a partner in ground breaking research and development. I look forward to continuing our work with great results and innovation."
 
           </MDBCardText>
@@ -33,7 +33,7 @@ export default function Testimonials() {
         <MDBCardBody className='mx-auto d-block' style={{textAlign: 'center'}}>
           <MDBCardTitle>Great job solving
 </MDBCardTitle>
-          <MDBCardText>
+          <MDBCardText style={{height:100}}>
           "Blackcoffer’s team did a great job solving issues we were having in an iterative fashion and adapted well to changing technical approaches."
           </MDBCardText>
           <p />
@@ -49,7 +49,7 @@ export default function Testimonials() {
      
         <MDBCardBody style={{textAlign: 'center'}}>
           <MDBCardTitle>Blackcoffer Solutions</MDBCardTitle>
-          <MDBCardText>
+          <MDBCardText style={{height:100}}>
           "Blackcoffer’s team did a great job solving issues we were having in an iterative fashion and adapted well to changing technical approaches."
 
           </MDBCardText>
