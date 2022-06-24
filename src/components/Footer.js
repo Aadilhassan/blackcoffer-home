@@ -5,10 +5,11 @@ import {
   MDBCol,
   MDBRow,
 } from 'mdb-react-ui-kit';
+import { BsFacebook, BsTwitter, BsYoutube, BsLinkedin } from 'react-icons/bs';
 
 export default function Footer() {
   return (
-    <MDBFooter bgColor='dark' className='text-white text-center text-lg-left'>
+    <MDBFooter bgColor='dark' style={{marginTop:50}} className='text-white text-center text-lg-left'>
       <MDBContainer className='p-4'>
         <MDBRow>
           <MDBCol lg='4' md='12' className='mb-0 mb-md-0' style={{textAlign: 'left'}}>
@@ -100,7 +101,12 @@ export default function Footer() {
               </li>
             </ul>
           </MDBCol>
-          
+          <MDBCol style={{textAlign:'left'}}><h5>Blackcoffer Social links</h5>
+          Taking seamless key performance indicators offline to maximise the long tail.
+          <div style={{marginTop:50}}>        <BsFacebook  style={ {fontSize:40, padding:2}}/>
+          <BsTwitter  style={ {fontSize:40, padding:2}}/><BsYoutube  style={ {fontSize:40, padding:2}}/><BsLinkedin  style={ {fontSize:40, padding:2}}/>
+</div>
+          </MDBCol>
         </MDBRow>
       </MDBContainer>
 
